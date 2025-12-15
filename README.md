@@ -1,0 +1,2 @@
+# Evergreen-Health-Insurance-Cost-Prediction-Data-Driven-Risk-Assessment-Premium-Optimization
+This portfolio project presents a comprehensive analysis of health insurance charges using a real-world dataset of 1,338 insured individuals. The analysis explores how variables such as age, BMI (Body Mass Index), smoking status, number of dependents, gender, and geographic region influence insurance premiums.
