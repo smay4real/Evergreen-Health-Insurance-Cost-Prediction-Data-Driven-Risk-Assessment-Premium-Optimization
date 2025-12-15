@@ -10,6 +10,7 @@ In the healthcare industry, understanding the factors that drive insurance costs
 
 This portfolio project presents a comprehensive analysis of health insurance charges using a real-world dataset of 1,338 insured individuals. The analysis explores how variables such as age, BMI (Body Mass Index), smoking status, number of dependents, gender, and geographic region influence insurance premiums. Through statistical analysis, pattern recognition, and predictive insights, this project demonstrates the power of data analytics in actuarial science and healthcare economics.
 
+
 The Data Story
 
 The Setting
@@ -18,26 +19,42 @@ This dataset represents a snapshot of health insurance customers across four maj
 
 Each record captures a moment in time: an individual’s health profile and the corresponding annual insurance charges they face.
 
+
 The Characters
 
 Demographics:
 
 1,338 insured individuals spanning ages 18 to 64
+
 Perfect gender balance: 50.5% male, 49.5% female
+
 Four geographic regions with roughly equal representation
+
 Diverse family structures: 42.9% have no children, while 57.1% are supporting dependents
+
+
 Health Profiles:
 
 Average BMI of 30.66 (classified as “obese” by WHO standards)
+
 20.5% smokers vs. 79.5% non-smokers
+
 BMI distribution: Only 18.4% in “normal” or “underweight” categories
+
 52.7% classified as obese or severely obese
+
+
 Financial Picture:
 
 Total insurance revenue: $17.76 million annually
+
 Average annual charge: $13,270.42 per person
+
 Massive range: From $1,121.87 (lowest) to $63,770.43 (highest)
+
 High variation: 91.3% coefficient of variation indicates extreme charge dispersion
+
+
 The Plot Twist
 
 The data reveals a startling truth: smoking status is the single most powerful predictor of insurance costs, dwarfing all other factors. Smokers pay an average of $32,050 annually, 3.8 times more than non-smokers ($8,434). This $23,616 premium represents the actuarial reality of smoking-related healthcare costs.
@@ -45,8 +62,12 @@ The data reveals a startling truth: smoking status is the single most powerful p
 But the story doesn’t end there. The interaction between smoking and obesity creates a multiplicative effect:
 
 Non-smoking, normal-weight individuals: ~$7,735 average
+
 Smoking + severely obese individuals: ~$43,556 average (5.6x higher!)
+
 This is a tale of compound risk — where lifestyle factors don’t just add up, they multiply.
+
+
 
 Objective of the Project
 
@@ -55,52 +76,89 @@ Primary Objectives
 1. Identify Key Cost Drivers
 
 Goal: Determine which factors (age, BMI, smoking, children, sex, region) have the strongest statistical relationship with insurance charges
+
 Method: Correlation analysis, regression modeling, comparative statistics
+
 Deliverable: Ranked list of cost drivers with quantified impact
+
 Business Value: Informs premium pricing formulas and risk assessment models
+
+
 2. Quantify Premium Differentials
 
 Goal: Calculate the exact dollar impact of each risk factor on insurance charges
+
+
 Example Questions:
+
 How much more do smokers pay than non-smokers?
+
 What is the cost increase per BMI point?
+
 How do charges increase with age?
+
 Deliverable: Pricing multipliers and differential tables
+
 Business Value: Enables transparent, data-backed rate cards
+
+
 3. Detect Interaction Effects
 
 Goal: Identify how combinations of factors multiply risk (e.g., smoking + high BMI)
+
 Method: Interaction term analysis, segmentation by multiple variables
+
 Deliverable: Risk profiles for customer archetypes
+
 Business Value: Reveals compound risk scenarios requiring specialized pricing
+
+
 4. Profile High-Cost Customers
 
 Goal: Characterize the demographic and health attributes of the top 25% most expensive customers
+
 Method: Quartile analysis, comparative profiling
+
 Deliverable: High-risk customer persona documentation
+
 Business Value: Targeted interventions, risk mitigation strategies, fraud detection
+
+
+
 What Does Success Mean to the Company?
 
 They demonstrate how your insurance products: whether health, life, or property, helping clients navigate difficult situations, recover financially, or gain peace of mind. building trust and credibility.
+
+
 
 DATA SPLIT:
 
 1.Category One — Independent Values
 
 Age
+
 Smokers
+
 Region
+
 Children
+
 Sex
+
+
 2. Category Two — Dependent Values
 
 BMI (Body Mass Index)
+
 charges
+
+
 POTENTIAL ANALYSIS / QUESTIONS
 
 1. How does age affect BMI and charges
 
 2. Is there a correlation between smoking habits and BMI/charges?
+
 3. Are there regional differences in BMI and charges?
 
 4 Do certain regions have higher or lower BMI and charges compared to others?
@@ -108,6 +166,7 @@ POTENTIAL ANALYSIS / QUESTIONS
 5 How does the presence of children affect BMI and charges?
 
 6. Are there differences in BMI and charges between individuals with and without children?
+
 7. Are there significant differences in BMI and charges between males and females?
 
 8. How do independent variables such as age, smokers, region, children, and sex affect charges?
@@ -115,6 +174,8 @@ POTENTIAL ANALYSIS / QUESTIONS
 9. How does BMI vary across different age groups and regions?
 
 10. Are there significant differences in BMI and charges between smokers and non-smokers?
+
+
 
 POTENTIAL INSIGHTS
 
@@ -129,6 +190,7 @@ POTENTIAL INSIGHTS
 5. Presence of children affects charges: Individuals with children may have higher charges due to increased healthcare utilization for their dependents.
 
 6. BMI is a significant predictor of charges: Higher BMI is associated with increased charges, potentially due to the costs of treating obesity-related health conditions.
+
 
 
 ANALYSIS:
