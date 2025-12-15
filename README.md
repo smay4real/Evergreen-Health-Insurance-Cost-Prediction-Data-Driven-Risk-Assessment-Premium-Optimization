@@ -73,6 +73,7 @@ Objective of the Project
 
 Primary Objectives
 
+
 1. Identify Key Cost Drivers
 
 Goal: Determine which factors (age, BMI, smoking, children, sex, region) have the strongest statistical relationship with insurance charges
